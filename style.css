@@ -1,0 +1,428 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.container {
+  font-family: "Inter";
+  height: 2000px;
+  background-color: #E5E5E5
+}
+
+
+.container_inner {
+  margin-left: 100px;
+  margin-bottom: 441px;
+}
+
+.text {
+  font-size: 40px;
+  font-weight: 400;
+  opacity: 30%;
+  line-height: 48px;
+  color: #0B2239;
+}
+
+.text_link {
+  font-size: 110px;
+  line-height: 133px;
+  font-weight: 900;
+  color: #0B2239;
+}
+
+.border_btn {
+  width: 1340px;
+  height: 72px;
+  background-color: #0B2239;
+  
+  
+}
+
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.paragraph {
+  width: 1080px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  padding: 16px 42px 16px 120px;
+  
+}
+
+.paragraph_text {
+  font-size: 12px;
+  font-weight: 600;
+  color: #4AD295;
+  padding: 26px 10px 26px 0px;
+  
+}
+
+.paragraph_text span {
+  border-bottom: 1px solid #4AD295;
+  cursor: pointer;
+}
+
+.btn {
+  width: 130px;
+  height: 36px;
+  background-color: #4AD295;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 18px 8px 18px 20px;
+}
+
+.container_item {
+  margin-top: 24px;
+}
+
+.rectangle {
+  width: 1340px;
+  height: 52px;
+  background-color: #2B2627;
+}
+
+.box_text_image {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 300px;
+}
+
+
+.paragraph_item {
+  width: 689px;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: regular;
+  color: #fff;
+}
+
+.paragraph_item span{
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+}
+
+
+.container_block {
+  margin-top: 72px;
+}
+
+.rectangle_radius {
+  width: 560px;
+  height: 72px;
+  border-radius: 16px;
+  background-color: #fff;
+  float: left;
+}
+
+.box_rectangle {
+  display: flex;
+  align-items: center;
+  padding: 16px 0;
+  
+}
+
+.paragraph_radius {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  width: 347px;
+  line-height: 20px;
+}
+
+.paragraph_radius span {
+  color: #EA4C89;
+  cursor: pointer;
+}
+
+.btn_item {
+  width: 63px;
+  height: 28px;
+  border-radius: 8px;
+  border: none;
+  background-color: #0D0C220D;
+  cursor: pointer;
+  font-size: 12px;
+  color: #0D0C22;
+  font-style: medium;
+}
+
+.btn_radius {
+  width: 52px;
+  height: 28px;
+  border-radius: 8px;
+  border: none;
+  background-color: #EA4C89;
+  cursor: pointer;
+  font-size: 12px;
+  color: #fff;
+  font-style: medium;
+}
+
+.container_box {
+  margin-top: 168px;
+}
+
+.rectangle_line {
+  width: 560px;
+  height: 64px;
+  background-color: #26262B;
+  border-radius: 10px;
+  float: left;
+}
+
+.box_block {
+display: flex;
+align-items: center;
+padding: 12px 0;
+}
+
+.paragraph_text_radius {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Roboto";
+  width: 469px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.paragraph_text_radius span {
+  color: orange;
+  cursor: pointer;
+}
+
+.btn_line {
+  width: 49px;
+  height: 28px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: none;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Roboto";
+  cursor: pointer;
+}
+
+.container_cookie {
+  float: left;
+  margin: 72px 430px 0 0;
+}
+
+.square_cookie {
+  width: 360px;
+  height: 206px;
+  border-radius: 6px;
+  background-color: #1C2540F2;
+}
+
+.box_cookie {
+  width: 312px;
+  padding-top: 24px;
+}
+
+.cookie {
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 20px;
+ color: #fff;
+ font-family: "Roboto";
+}
+
+.paragraph_cookie {
+  width: 312px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #fff;
+  font-family: "Roboto";
+  padding: 10px 0 24px 0;
+}
+
+.block_cookie {
+  display: flex;
+  align-items: center;
+  float: left;
+}
+
+.cookie_item {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  color: #fff;
+  font-family: "Roboto";
+}
+
+.btn_cookie {
+  width: 85px;
+  height: 32px;
+  background-color: #09B3AF;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Roboto";
+  cursor: pointer;
+  margin-left: 67px;
+}
+
+.container_item_btn {
+  margin: 60px 200px 0 0;
+  float: left;
+  font-family: "Roboto";
+}
+
+.square_btn {
+  width: 360px;
+  height: 170px;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+
+.box_text_cookie {
+  width: 328px;
+}
+
+.text_cookie {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #0F181D;
+  padding-top: 16px;
+}
+
+.paragraph_text_cookie {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #687F8C;
+  padding: 10px 0 16px 0;
+}
+
+.btn_cookie_text {
+  width: 160px;
+  height: 32px;
+  border-radius: 6px;
+  background-color: #EAF0F4;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #687F8C;
+  cursor: pointer;
+}
+
+.btn_cookie_item {
+  width: 160px;
+  height: 32px;
+  border-radius: 6px;
+  background-color: #40C1A7;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container_block_box {
+  float: left;
+  text-align: center;
+  
+}
+
+.square_block {
+  width: 320px;
+  height: 260px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 32px 0;
+}
+
+.box_inner_item {
+
+}
+
+.text_square {
+  font-size: 28px;
+  font-weight: 900;
+  font-family: "Roboto" sans-serif;
+  color: #15295A;
+}
+
+
+.paragraph_text_item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #15295A;
+  width: 256px;
+  padding: 10px 0 32px 0;
+}
+
+.btn_item_block {
+  width: 121px;
+  height: 44px;
+  background-color: #4A7EFF;
+  border-radius: 43px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container_link_rectangle {
+  float: left;
+  margin: 50px 0 0 300px;
+ font-family: "Roboto" sans-serif;
+}
+
+.link_text_rectangle {
+  width: 320px;
+  height: 137px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.block_box_rectangle {
+  width: 288px;
+}
+
+.paragraph_rectangle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000;
+  padding: 16px 16px 20px 0px;
+
+}
+
+.rectangle_text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #6666FF;
+  cursor: pointer;
+  float: left;
+}
+
+.btn_rectangle_text {
+  width: 64px;
+  height: 33px;
+  border-radius: 4px;
+  background-color: #6666FF;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  float: right;
+  cursor: pointer;
+}
+
+
